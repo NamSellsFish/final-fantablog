@@ -57,10 +57,16 @@ This application provides the following key features:
 
 1. Authenticate users via JWT (login/signup pages + logout button on settings page)
 2. CRU- users (sign up & settings page - no deleting required)
-3. CRUD Articles (offset based pagination, filtering by facets, sorting)
-4. CR-D Comments on articles (no updating required)
+3. CRUD articles (offset based pagination, filtering by facets, sorting)
+4. CR-D comments on articles (no updating required)
 5. Favorite articles
 6. Follow other users
+- [ ] -RUD roles
+- [ ] Activate/Deactivate users and their articles
+- [ ] Delete users
+- [ ] CRUD souvenirs (or memberships, not finalize yet), line items
+- [ ] CR-D orders
+- [ ] [Read Along] Group realtime chat and phone call, integrate AI to provide context for newcomers.
 
 ### Project structures
 The project is implemented based on Java 21 and Spring Boot 3, utilizing various Spring technologies such as Spring MVC, Spring Data JPA, and Spring Security. It uses H2 DB (in-memory, MySQL mode) as the database. and JUnit5 for writing test codes.
